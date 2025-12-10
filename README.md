@@ -1,5 +1,5 @@
 # VScode_Colab_Download
-***Download Helper for Colab / VS Code Notebooks***
+***Download Helper for VS Code Colab Extension Notebooks***
 
 This function enables downloading files when using the Colab extension inside VS Code, where direct access to the Colab workspace is not available.
 It works by encoding the file in Base64 and embedding it into an HTML download link, allowing you to save files locally even though the Colab filesystem cannot be browsed from VS Code.
