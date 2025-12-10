@@ -1,15 +1,20 @@
 # VScode_Colab_Download
 Download Helper for Colab / VS Code Notebooks
 
-This small utility provides a simple way to generate clickable download links for files created inside a notebook environment—such as Google Colab or the VS Code Jupyter extension.
-It embeds the file directly into an HTML <a> tag using Base64 encoding, allowing you to download files even when the environment does not expose a traditional filesystem UI.
+This utility provides a simple way to generate clickable download links for files created inside remote notebook environments such as Google Colab or the VS Code Jupyter extension.
+It embeds the file using Base64 inside an HTML link, allowing downloads even when the notebook environment doesn’t expose a normal file browser.
 
 ✨ Features
+Instantly generate download links for any file.
+Works in Google Colab, VS Code Jupyter, and other IPython notebook environments.
+Lightweight — no external libraries required.
+Helpful for exporting logs, generated files, reports, models, etc.
 
-Create instant download links for any file in the runtime.
+🚀 Example Usage
+<img width="1092" height="166" alt="image" src="https://github.com/user-attachments/assets/82da316a-4a98-41f9-8841-084aa91a0c8b" />
 
-Works in Google Colab, VS Code Jupyter, and any IPython notebook environment.
+The function generates a link like:
+Download logfile.txt
 
-No external dependencies.
+Click it to save the file locally.
 
-Handy for exporting logs, model outputs, generated files, etc.
